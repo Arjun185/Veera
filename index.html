@@ -4,52 +4,62 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta name="description" content="Earnova - USDT Payment Gateway">
-    <title>Earnova | USDT Payment Gateway</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <meta name="description" content="Earnova - Unlock Financial Freedom with E-books">
+    <title>Earnova | Unlock Financial Freedom</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="container mt-4">
-        <h1 class="text-center text-primary">Earnova USDT Payment Gateway</h1>
 
-        <!-- Wallet Connection -->
-        <div class="card p-4">
-            <button id="connectWallet" class="btn btn-primary">Connect Wallet</button>
-            <p id="walletAddress" class="mt-3 text-center text-success"></p>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <h1>Earnova</h1>
+            <nav>
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#ebooks">Use of E-books</a>
+                <a href="#benefits">Benefits</a>
+                <a href="login.html">Login</a>
+                <a href="register.html" class="btn">Register</a>
+            </nav>
         </div>
+    </header>
 
-        <!-- Deposit Section -->
-        <div class="card p-4">
-            <h3>Deposit USDT</h3>
-            <input type="number" id="depositAmount" class="form-control mb-2" placeholder="Amount (Min 10 USDT)">
-            <input type="text" id="referrerAddress" class="form-control mb-2" placeholder="Referrer Address (Optional)">
-            <button id="depositBtn" class="btn btn-success">Deposit</button>
-        </div>
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <h1>Unlock Your Financial Freedom</h1>
+        <p>Learn, Refer, and Earn with our premium e-books.</p>
+        <a href="#about" class="cta-btn">Get Started</a>
+    </section>
 
-        <!-- Withdraw Section -->
-        <div class="card p-4">
-            <h3>Withdraw USDT</h3>
-            <input type="number" id="withdrawAmount" class="form-control mb-2" placeholder="Amount (Min 5 USDT)">
-            <button id="withdrawBtn" class="btn btn-warning">Withdraw</button>
-        </div>
+    <!-- About Us -->
+    <section id="about" class="glass">
+        <h2>About Us</h2>
+        <p>Earnova empowers individuals by providing knowledge-packed e-books and a transparent referral system, creating an environment for learning and earning.</p>
+    </section>
 
-        <!-- Dashboard -->
-        <div class="card p-4">
-            <h3>Dashboard</h3>
-            <p><strong>Balance:</strong> <span id="balance">0</span> USDT</p>
-            <p><strong>Total Pairs:</strong> <span id="totalPairs">0</span></p>
-            <p><strong>Referrals:</strong> <span id="referrals">0</span></p>
-        </div>
+    <!-- Use of E-books -->
+    <section id="ebooks" class="glass">
+        <h2>Use of E-books</h2>
+        <p>Our e-books cover a variety of topics aimed at personal growth, financial literacy, and entrepreneurship.</p>
+    </section>
 
-        <!-- Transaction History -->
-        <div class="card p-4">
-            <h3>Transaction History</h3>
-            <ul id="transactionHistory" class="list-group"></ul>
-        </div>
-    </div>
+    <!-- Benefits of E-books -->
+    <section id="benefits" class="glass">
+        <h2>Benefits of E-books</h2>
+        <ul>
+            <li>Access Anytime, Anywhere</li>
+            <li>Cost-effective Learning</li>
+            <li>Environmentally Friendly</li>
+            <li>Instant Downloads</li>
+        </ul>
+    </section>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/web3/1.7.4/web3.min.js"></script>
-    <script src="app.js"></script>
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2025 Earnova. All Rights Reserved.</p>
+    </footer>
+
 </body>
 </html>
