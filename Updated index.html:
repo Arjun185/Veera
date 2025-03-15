@@ -1,0 +1,22 @@
+<header class="header">
+    <div class="container">
+        <!-- Logo on the Left -->
+        <div class="logo">
+            <img src="logo.png" alt="Earnova Logo">
+        </div>
+
+        <!-- Navigation Links in the Center -->
+        <nav class="nav-links">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#ebooks">Use of E-books</a>
+            <a href="#benefits">Benefits</a>
+        </nav>
+
+        <!-- Login/Register Buttons on the Right -->
+        <div class="auth-buttons">
+            <a href="login.html" class="login-btn">Login</a>
+            <a href="register.html" class="register-btn">Register</a>
+        </div>
+    </div>
+</header>
